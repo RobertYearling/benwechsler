@@ -1,0 +1,810 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+html, 
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Lato, Raleway, sans-serif;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	background: #FFFFFF;
+}
+
+#menu {
+    display: none;
+}
+
+.mastHead {
+	text-align: center;
+	background: #2C3E50;
+	color: #FFFFFF;
+	font-size: 1.0em;
+	line-height: 1.0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hero {
+	background-image: url(images/thinker_cliff.JPG);
+	background-size: cover;
+	padding: 35% 20px 5% 15%;
+	color: #FFFFFF;
+	text-align: left;
+	min-height: 375px;
+}
+
+.hero h1{
+    text-align: left;
+}
+
+.hero_logo {
+	width: 75px;
+	margin-top: 10%;
+	margin-bottom: 20px;
+}
+
+.hero-about {
+	background-image: url(images/aboutHeader.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	color: #FFFFFF;
+	text-align: left;
+	min-height: 100px;
+}
+
+.hero-about h1 {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-top: 40px;
+    margin-left: 50px;
+}
+
+.hero-about h2 {
+    text-align: left;
+    font-size: 1.0em;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.navhead {
+	background-color: #E29E43;
+	color: #FFFFFF;
+    display: block;
+    min-height: 115px;
+}
+
+.navbox {
+    background-color: #E29E43;
+    color: #FFFFFF;
+    text-align: middle;
+    display: block;
+}
+
+.nav-logo {
+    position: relative;
+    float: left;
+	display: block;
+    width: 95px;
+    padding: 25px 0px 0px 25px;
+}
+
+.nav-logo-2 {
+    display: none;
+}
+
+.footer-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 65px;
+}
+
+.style-nav {
+    display: none;
+    float: right;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 12px;
+	font-weight: 400;
+}
+
+.intro	{
+	margin: 0px 60px 45px 60px;
+}
+
+.intro2	{
+	text-align: center;
+	margin: 0px 60px 45px 60px;
+}
+
+.intro h1 {
+	text-align: center;
+	margin-top: 1.0em;
+	margin-bottom: 1.0em;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-family: Lato;
+    font-weight: 600;
+}
+
+.intro2 h1 {
+	font-size: 1.8em;
+	margin-bottom: 18px;
+	text-transform: uppercase;
+	font-family: Lato;
+    font-weight: 600;
+}
+
+.intro p {
+	font-size: 1.3em;
+	line-height: 1.5;
+	margin-bottom: 14px;
+}
+
+.intro2 p {
+	font-size: 1.3em;
+	line-height: 1.5;
+	margin-bottom: 18px;
+}
+
+.full-image {
+	width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+	font-size: 1.8em;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 1.0em;
+}
+
+h2 {
+	font-size: 1.0em;
+	font-weight: 300;
+	margin-bottom: 28px;
+}
+
+.vet-box {
+	text-align: center;
+	background: #2C3E50;
+	color: #FFFFFF;
+	font-size: 1.3em;
+	line-height: 1.5;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.teacher {
+	text-align: center;
+	background: #E29E43;
+	color: #FFFFFF;
+	font-size: 1.3em;
+	line-height: 1.5;
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+.col {
+    width: 100%;
+}
+
+.col2 {
+    width: 100%;
+}
+
+.col3 {
+    width: 100%;
+}
+
+.workshop {
+	border: 2px solid #2C3E50;
+	margin: 5%;
+	padding: 5%;
+    min-height: 650px;
+    background-color: #FFFFFF;
+}
+
+.workshop h1 {
+	margin-top: 0.5em;
+	margin-bottom: 1.0em;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-family: Lato;
+    font-weight: 600;
+}
+
+.workshop-ad {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 250px;
+	margin-bottom: 20px;
+}
+
+.workshop p h3 {
+	margin-left: 5%;
+	margin-right: 15%;
+	font-family: Lato;
+    font-weight: 600;
+}
+
+.button-p {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.workshop-kudo {
+	text-align: right;
+	font-size: 1.4em;
+	font-style: italic;
+	font-weight: 400;
+	padding: 5%;
+	background-color: #E29E43;
+	color: #FFFFFF;
+}
+
+.button {
+	border: 2px #7F0406 solid;
+	background-color:#7F0406;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.leadership {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.leadership-row {
+    background-color: #2C3E50;
+    padding: 65px 20px;
+}
+
+.kudo-container {
+    background-color: #E29E43;
+    PADDING: 5%;
+}
+
+.kudo {
+	text-align: right;
+	font-size: 1.4em;
+	font-style: italic;
+	font-weight: 400;
+	padding: 25px;
+	background-color: #E29E43;
+	color: #FFFFFF;
+    border: 1px solid #ffffff;
+}
+
+.col3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid #2C3E50;
+    width: 350px;
+    margin: 20px auto;
+    padding: 12px;
+}
+
+.col3 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #E29E43;
+    font-weight: 600;
+}
+
+.col3 h1 {
+	margin-top: 1.8em;
+	margin-bottom: 1.5em;
+	font-size: 1.8em;
+	text-transform: uppercase;
+	font-family: Lato;
+    font-weight: 600;
+}
+
+.col3 p h3 {
+	margin-left: 5%;
+	margin-right: 15%;
+	font-family: Lato;
+    font-weight: 600;
+}
+
+.footer {
+	background: #2C3E50;
+	color: #FFFFFF; 
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.style-footer-nav ul li a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #FFFFFF;
+	text-align: center;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 12px;
+	font-weight: 400;
+}
+
+.subscribe-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 12px auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 1.5em;
+}
+
+.subscribe-btn {
+	border: 2px #7F0406 solid;
+	background-color:#7F0406;
+	padding: 8px 30px;
+	border-radius: 30px;
+	color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.enter{
+    text-align: left;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.label {
+    font-size: 1.0em;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.entry {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.content {
+    font-family: Raleway;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 75px 20px;
+}
+
+.content h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.content p {
+    font-size: 18px;
+    padding-top: 12px;
+    line-height: 22px;
+}
+
+.content ul li {
+    font-size: 18px;
+    padding-top: .5em;
+    margin-left: 23px;
+}
+
+.contact {
+    font-family: Raleway;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 10px 75px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.contact p {
+    font-size: 18px;
+    padding-top: 12px;
+    line-height: 22px;
+}
+
+.quote {
+    text-align: right;
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 300;
+}
+   
+.aboutBlock {
+    display: block;
+    border: 1px solid #325084;
+    width: 320px;
+    height: 650px;
+    padding: 25px;
+    margin: 15px auto;
+}
+
+.aboutBlock_Title {
+  font-size: 28px;
+  font-family: "Raleway";
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.aboutBlock_text {
+  font-size: 16px;
+  font-family: "Lato";
+  line-height: 1.333;
+  text-align: justify;
+  margin: 5px 15px;
+}
+
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+    body {
+        max-width: 100%;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .cross {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .hero_logo {
+        width: 85px;
+    }
+
+    .hero-about {
+        min-height: 155px;
+    }
+
+    .hero-about h1 {
+        font-size: 1.7em;
+        padding-top: 70px;
+        margin-left: 80px;
+    }
+
+    .hero-about h2 {
+        font-size: 1.5em;
+        margin-left: 80px;
+    }
+    
+    .navhead {
+        display: none;
+    }
+
+    .navbox {
+        background-color: #E29E43;
+        color: #FFFFFF;
+        text-align: middle;
+        display: block;
+        min-height: 115px;
+    }
+
+    .nav-logo-2 {
+        position: relative;
+        float: left;
+        display: block;
+        width: 95px;
+        padding: 25px 0px 0px 25px;
+    }
+    
+    .style-nav {
+        display: block;
+        float: right;
+        margin: 30px 30px;
+    }
+
+    .style-nav ul li {
+        display: inline-block;
+    }
+
+    .intro	{
+        margin: 0px 75px 45px 75px;
+    }
+
+    .intro2	{
+        text-align: center;
+        margin: 0px 75px 45px 75px;
+    }
+
+    .intro h1 {
+        text-align: center;
+        margin-top: 1.4em;
+        font-size: 2.0em;
+    }
+
+    .intro2 h1 {
+        font-size: 2.0em;
+        margin-bottom: 18px;
+    }
+
+    .intro p {
+        font-size: 1.5em;
+    }
+
+    .intro2 p {
+        font-size: 1.5em;
+    }
+
+    h1 {
+        font-size: 2.8em;
+    }
+
+    h2 {
+        font-size: 1.6em;		
+    }
+
+    .col-md-one-half {
+        width: 50%;
+    }
+
+    .col2 {
+        float: left;
+        padding: 10px 10px 18px;
+    }
+
+    .col3 {
+        float: left;
+        width: 335px;
+        text-align: center;
+        border: 1px solid #2C3E50;
+        margin: 20px 20px 20px 20px;
+        padding: 12px;
+    }
+
+    .col3 img {
+        width: 275px;
+    }
+
+    .workshop-ad {
+        width: 350px;
+    }
+
+    .workshop-kudo {
+        margin-top: 200px;
+    }
+
+    .leadership {
+        width: 750px;
+    }
+
+    .kudo {
+        font-size: 1.5em;
+        padding-right:7%;
+        padding-left: 7%;
+    }
+
+    .style-footer-nav ul li {
+        display: inline-block;
+    }
+
+    .form h3 {
+        font-size: 1.5em;
+        line-height: 1.3em;
+    }
+    
+    .aboutBlock {
+        display: block;
+        border: 1px solid #325084;
+        width: 600px;
+        height: 450px;
+        padding: 45px;
+        margin: 15px auto;
+    }
+    
+    .aboutBlock_Title {
+      font-size: 36px;
+      font-family: "Raleway";
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 10px;
+    }
+    
+    .aboutBlock_text {
+      font-size: 18px;
+      font-family: "Lato";
+      line-height: 1.333;
+      text-align: justify;
+      margin: 5px 25px;
+    }
+
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+
+    body {
+        max-width: 100%;
+    }
+    
+    .hamburger {
+        display: none;
+    }
+    
+    .cross {
+        display: none;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    .navhead {
+        display: none;
+    }
+
+    .hero_logo {
+        width: 95px;
+    }
+
+    .hero-about {
+        min-height: 245px;
+    }
+
+    .hero-about h1 {
+        font-size: 2.5em; 
+        padding-top: 120px;
+        margin-left: 80px;
+    }
+
+    .hero-about h2 {
+        font-size: 2.0em; 
+        font-weight: 400;
+        margin-left: 80px;
+    }
+
+    .intro	{
+        margin: 0px 15% 45px 15%;
+    }
+
+    .col-lg-one-fourth {
+        width: 25%;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    h2 {
+        font-size: 2.0em;		
+    }
+
+    .intro h1 {
+        text-align: center;
+        margin-top: 1.4em;
+        font-size: 2.4em;
+    }
+
+    .intro2 h1 {
+        font-size: 2.4em;
+        margin-bottom: 18px;
+    }
+
+    .intro p {
+        font-size: 1.8em;
+    }
+
+    .intro2 p {
+        font-size: 1.8em;
+    }
+
+    .vet-box p {
+        font-size: 1.8em;
+    }
+
+    .leadership {
+        width: 900px;
+    }
+
+    .kudo {
+        font-size: 1.6em;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .col3 {
+        float: left;
+        width: 250px;
+        text-align: center;
+        border: 1px solid #2C3E50;
+        margin: 20px 20px 20px 20px;
+        padding: 12px;
+    }
+
+    .col3 img {
+        width: 225px;
+    }
+
+    .col3 h3 {
+        font-size: 1.0em;
+    }
+
+    .col3 a {
+        font-size: 0.7em;
+    }
+
+    .form h3 {
+        font-size: 1.8em;
+    }
+    
+    .aboutBlock {
+        display: block;
+        border: 1px solid #325084;
+        width: 600px;
+        height: 450px;
+        padding: 45px;
+        margin: 15px auto;
+    }
+    
+    .aboutBlock_Title {
+      font-size: 36px;
+      font-family: "Raleway";
+      text-align: center;
+      padding-top: 25px;
+      padding-bottom: 10px;
+    }
+    
+    .aboutBlock_text {
+      font-size: 18px;
+      font-family: "Lato";
+      line-height: 1.333;
+      text-align: justify;
+      margin: 5px 25px;
+    }
+
+    .subscribe-box {
+        width: 40%;
+    }
+
+}

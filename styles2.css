@@ -1,0 +1,256 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.TOC {
+    max-width: 375px;
+    margin: 12px auto 18px auto;
+    padding: 10px;
+}
+
+.TOC h2 {
+    font-family: Raleway;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.TOC h3 {
+    font-family: Lato;
+    font-size: 0.9em;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.TOC img {
+    width: 300px;
+    display: block;
+    margin-bottom: 22px;  
+}
+
+.TOC a {
+	text-decoration: none;
+	color: #E29E43; 
+    font-weight: 700;
+}
+
+.breadcrumbs {
+    text-align: right;
+    margin-right: 25px;
+    font-size: 12px;
+}
+    
+.blog {
+    width: 75%;
+    margin: 10px auto;
+    line-height: 1.8em;
+}
+
+.blog h1 {
+    font-size: 2.0em;
+    font-weight: 700;
+    text-align: left;
+    line-height: 1.2em;
+    text-transform: none;
+}
+
+.blog h4 {
+    font-size: 1.0em;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.blog p {
+    font-size: 1.2em;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.blog_image {
+    max-width: 376px;
+    display: flex;
+    position: relative;
+    margin: 50px auto 5px auto;
+}
+
+.blog h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.blog_insert_photo {
+    display: flex;
+    position: relative;
+    width: 250px;
+    float: left;
+}
+
+
+/*Tablet View*/
+
+@media (min-width: 768px) {
+
+    .TOC {
+        max-width: 600px;
+        margin: 25px 75px 50px 100px;
+    }    
+
+    .TOC h2 {
+        font-family: Raleway;
+        font-size: 1.5em;
+        margin-bottom: 0px;
+    }
+
+    .TOC h3 {
+        font-family: Lato;
+        font-size: 1.0em;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+    
+    .TOC p {
+        font-size: 18px;
+    }
+    
+    .TOC img {
+        width: 400px;
+    }
+    
+    .blog {
+        width: 75%;
+        margin: 10px auto;
+        line-height: 1.8em;
+    }
+
+    .blog h1 {
+        font-size: 2.0em;
+        font-weight: 700;
+        text-align: left;
+        line-height: 1.2em;
+        text-transform: none;
+    }
+
+    .blog h4 {
+        font-size: 1.0em;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .blog p {
+        font-size: 1.2em;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    .blog_image {
+        max-width: 476px;
+        display: flex;
+        position: relative;
+        margin: 50px auto 5px auto;
+    }
+
+    .blog h5 {
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    .blog_insert_photo {
+        display: flex;
+        position: relative;
+        width: 250px;
+        float: left;
+    }
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+
+    .TOC {
+        max-width: 800px;
+        margin: 25px 100px 50px 200px;
+    }    
+
+    .TOC h2 {
+        font-family: Raleway;
+        font-size: 1.8em;
+        margin-bottom: 0px;
+    }
+
+    .TOC h3 {
+        font-family: Lato;
+        font-size: 1.2em;
+        margin-top: 0px;
+        margin-bottom: 14px;
+    }
+    
+    .TOC p {
+        font-size: 20px;
+    }
+    
+    .TOC img {
+        width: 600px;
+    }
+    
+    .blog {
+        width: 75%;
+        margin: 10px auto;
+        line-height: 1.8em;
+    }
+    
+    .blog h1 {
+        font-size: 2.2em;
+        font-weight: 700;
+        text-align: left;
+        line-height: 1.2em;
+        text-transform: none;
+    }
+    
+    .blog h4 {
+        font-size: 1.0em;
+        font-weight: 300;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    
+    .blog p {
+        font-size: 1.2em;
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+	
+    .blog_image {
+        max-height: 676px;
+        display: flex;
+        position: relative;
+        margin: 50px auto 5px auto;
+    }
+    
+    .blog h5 {
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        text-align: center;
+        line-height: 1.2em;
+    }
+    
+    .blog_insert_photo {
+        display: flex;
+        position: relative;
+        width: 250px;
+        float: left;
+    }
+}
