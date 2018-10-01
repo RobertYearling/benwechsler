@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.item1 { grid-area: banner; }
+.item2 { grid-area: socialmedia; }
+.item3 { grid-area: header; }
+.item4 { grid-area: header; }
+.item5 { grid-area: header; }
+.item6 { grid-area: header; }
+.item7 { grid-area: header; }
+.item8 { grid-area: header; }
+.item9 { grid-area: header; }
+.item10 { grid-area: header; }
+.item11 { grid-area: header; }
+.item12 { grid-area: header; }
+.item13 { grid-area: header; }
+.item14 { grid-area: header; }
+.item15 { grid-area: header; }
+.item16 { grid-area: header; }
+
+
+.item1 {
+}
+
+.item2 {
+}
