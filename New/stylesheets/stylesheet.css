@@ -9,6 +9,10 @@ Orange - rgb(222, 147, 59) */
   font-family: Lato;
 }
 
+body {
+
+}
+
 .item1 { grid-area: panel1; }
 .item2 { grid-area: panel2; }
 .item3 { grid-area: panel3; }
