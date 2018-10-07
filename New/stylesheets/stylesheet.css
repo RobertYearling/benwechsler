@@ -82,6 +82,11 @@ li {
   padding: 15px;
 }
 
+.logosm {
+  float: left;
+  width: 100px;
+}
+
 .img {
   width: 350px;
 }
@@ -122,6 +127,7 @@ li {
 }
 
 .item3 {
+  display: inline-block;
   background-color: rgb(222, 147, 59);
   color: white;
   text-align: right;
@@ -180,4 +186,14 @@ li {
 
 .item11 {
   text-align: center;
+}
+
+.item12 {
+  background-color: rgb(39, 54, 70);
+  color: white;
+}
+
+.item13 {
+  font-size: 9px;
+  padding: 25px;
 }
