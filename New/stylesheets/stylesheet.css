@@ -6,11 +6,29 @@ Orange - rgb(222, 147, 59) */
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: Lato;
+  font-family: Lato, Raleway, sans-serif;
 }
 
-body {
-
+.wrapper {
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    'panel1'
+    'panel2'
+    'panel3'
+    'panel4'
+    'panel5'
+    'panel6'
+    'panel7'
+    'panel8'
+    'panel9'
+    'panel10'
+    'panel11'
+    'panel12'
+    'panel13'
+    'panel14'
+    'panel15'
+    'panel16'
 }
 
 .item1 { grid-area: panel1; }
@@ -40,6 +58,7 @@ h1 {
 
 h2 {
   font-size: 1.0em;
+  line-height: 1.5;
 }
 
 h3 {
@@ -48,6 +67,7 @@ h3 {
 
 h4 {
   font-size: 1.8em;
+  line-height: 1.5;
 }
 
 h5 {
@@ -55,13 +75,35 @@ h5 {
 }
 
 h6 {
-
 }
 
 li {
   display: inline-block;
+  padding: 15px;
 }
 
+.img {
+  width: 350px;
+}
+
+.description {
+  text-align: left;
+}
+
+.workshops {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 30px 15px;;
+  width: 40%;
+  font-size: 18px;
+}
+
+.articles {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 3px;
+  text-align: center;
+}
 
 .item1 {
   background-color: rgb(39, 54, 70);
@@ -71,23 +113,32 @@ li {
 }
 
 .item2 {
+  background-image: url(../images/thinker_cliff.jpg);
+  background-size: cover;
+  padding: 35% 20px 5% 15%;
+	color: #FFFFFF;
+	text-align: left;
+	min-height: 375px;
 }
 
 .item3 {
   background-color: rgb(222, 147, 59);
   color: white;
   text-align: right;
-  padding: 10px 25px;
+  font-size: 1.2em;
+  padding: 5px 20px;
 }
 
 .item4 {
   text-align: center;
+  padding: 15px 100px;
 }
 
 .item5 {
   background-color: rgb(222, 147, 59);
   color: white;
   text-align: center;
+  padding: 5px 0px;
 }
 
 .item6 {
@@ -97,6 +148,11 @@ li {
   padding: 15px;
 }
 
+.item7 {
+  text-align: center;
+  font-size: 2.0em;
+}
+
 .item8 {
   background-color: rgb(222, 147, 59);
   color: white;
@@ -104,4 +160,24 @@ li {
   padding: 25px;
   font-size: 1.4em;
   font-style: italic;
+}
+
+.item9 {
+  background-color: rgb(39, 54, 70);
+  text-align: center;
+  padding: 15px;
+}
+
+.item10 {
+  background-color: rgb(222, 147, 59);
+  color: white;
+  border: 1px solid white;
+  text-align: right;
+  padding: 25px;
+  font-size: 1.4em;
+  font-style: italic;
+}
+
+.item11 {
+  text-align: center;
 }
