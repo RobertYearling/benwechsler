@@ -92,18 +92,13 @@ li {
   width: 250px;
 }
 
-#description {
-  text-align: left;
-}
-
 .workshops {
-  display: inline-block;
-  vertical-align: middle;
-  border: 2px solid #2C3E50;
-  width: 375px;
-  height: 500px;
+  display: block;
+
+  width: 90%;
+  height: 375px;
   padding: 15px;
-  margin: 15px;
+  margin: auto;
 }
 
 .testimonials {
@@ -127,8 +122,11 @@ li {
 }
 
 .footer {
-  display: inline-block;
   vertical-align: center;
+}
+
+#description {
+  text-align: left;
 }
 
 .item1 {
@@ -150,6 +148,7 @@ li {
 
 .item3 {
   display: inline-block;
+  vertical-align: center;
   background-color: rgb(222, 147, 59);
   color: white;
   text-align: right;
@@ -178,6 +177,7 @@ li {
 
 .item7 {
   text-align: center;
+  padding: 25px;
 }
 
 .item8 {
@@ -200,6 +200,7 @@ li {
 
 .item11 {
   text-align: center;
+  padding: 25px 0px;
 }
 
 .item12 {
