@@ -9,6 +9,23 @@ Orange - rgb(222, 147, 59) */
   font-family: Lato, Raleway, sans-serif;
 }
 
+.item1 { grid-area: panel1; }
+.item2 { grid-area: panel2; }
+.item3 { grid-area: panel3; }
+.item4 { grid-area: panel4; }
+.item5 { grid-area: panel5; }
+.item6 { grid-area: panel6; }
+.item7 { grid-area: panel7; }
+.item8 { grid-area: panel8; }
+.item9 { grid-area: panel9; }
+.item10 { grid-area: panel10; }
+.item11 { grid-area: panel11; }
+.item12 { grid-area: panel12; }
+.item13 { grid-area: panel13; }
+.item14 { grid-area: panel14; }
+.item15 { grid-area: panel15; }
+.item16 { grid-area: panel16; }
+
 .wrapper {
   display: grid;
   margin: auto;
@@ -31,38 +48,11 @@ Orange - rgb(222, 147, 59) */
     'panel16'
 }
 
-.item1 { grid-area: panel1; }
-.item2 { grid-area: panel2; }
-.item3 { grid-area: panel3; }
-.item4 { grid-area: panel4; }
-.item5 { grid-area: panel5; }
-.item6 { grid-area: panel6; }
-.item7 { grid-area: panel7; }
-.item8 { grid-area: panel8; }
-.item9 { grid-area: panel9; }
-.item10 { grid-area: panel10; }
-.item11 { grid-area: panel11; }
-.item12 { grid-area: panel12; }
-.item13 { grid-area: panel13; }
-.item14 { grid-area: panel14; }
-.item15 { grid-area: panel15; }
-.item16 { grid-area: panel16; }
-
-body {
-  
-}
-
-h1 {
-
-}
+/* Max Screen Size 375px */
 
 h2 {
   font-size: 1.0em;
   line-height: 1.5;
-}
-
-h3 {
-
 }
 
 h4 {
@@ -70,11 +60,148 @@ h4 {
   line-height: 1.5;
 }
 
-h5 {
+li {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: center;
+}
+
+.logosm {
+  float: left;
+  width: 100px;
+}
+
+.img {
+  width: 250px;
+}
+
+.workshops {
+  display: block;
+  width: 90%;
+  height: 375px;
+  padding: 15px;
+  margin: auto;
+}
+
+.testimonials {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  text-align: right;
+  font-family: Lato, Raleway, sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.articles {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #2C3E50;
+  width: 325px;
+  height: 225px;
+  padding: 3px;
+  text-align: center;
+}
+
+.footer {
+  vertical-align: center;
+}
+
+#description {
+  text-align: left;
+}
+
+.item1 {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+}
+
+.item2 {
+  background-image: url(../images/thinker_cliff.jpg);
+  background-size: cover;
+  padding: 35% 20px 5% 15%;
+	color: #FFFFFF;
+	text-align: left;
+	width: 100%;
+}
+
+.item3 {
+  display: inline-block;
+  background-color: rgb(222, 147, 59);
+  color: white;
+  text-align: right;
+  font-size: 23px;
+  padding: 5px 20px;
+}
+
+.item4 {
+  text-align: center;
+  padding: 15px 100px;
+}
+
+.item5 {
+  background-color: rgb(222, 147, 59);
+  color: white;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.item6 {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.item7 {
+  text-align: center;
+  padding: 25px;
+}
+
+.item8 {
+  background-color: rgb(222, 147, 59);
+  padding: 30px;
 
 }
 
-h6 {
+.item9 {
+  background-color: #2C3E50;
+  text-align: center;
+  padding: 15px;
+}
+
+.item10 {
+  background-color: rgb(222, 147, 59);
+  padding: 30px;
+
+}
+
+.item11 {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.item12 {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 25px;
+}
+
+@media only screen and (min-width: 420px)
+
+h2 {
+  font-size: 1.0em;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.8em;
+  line-height: 1.5;
 }
 
 li {
