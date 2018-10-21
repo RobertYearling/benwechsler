@@ -1,0 +1,145 @@
+
+@media only screen and (min-width: 420px)
+
+h2 {
+  font-size: 1.0em;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.8em;
+  line-height: 1.5;
+}
+
+li {
+  display: inline-block;
+  padding: 15px;
+  vertical-align: center;
+}
+
+.logosm {
+  float: left;
+  width: 100px;
+}
+
+.img {
+  width: 250px;
+}
+
+.workshops {
+  display: block;
+
+  width: 90%;
+  height: 375px;
+  padding: 15px;
+  margin: auto;
+}
+
+.testimonials {
+  border: 1px solid white;
+  padding: 10px;
+  color: white;
+  text-align: right;
+  font-family: Lato, Raleway, sans-serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.articles {
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid #2C3E50;
+  width: 325px;
+  height: 225px;
+  padding: 3px;
+  text-align: center;
+}
+
+.footer {
+  vertical-align: center;
+}
+
+#description {
+  text-align: left;
+}
+
+.item1 {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 7px;
+}
+
+.item2 {
+  background-image: url(../images/thinker_cliff.jpg);
+  background-size: cover;
+  padding: 35% 20px 5% 15%;
+	color: #FFFFFF;
+	text-align: left;
+	min-height: 375px;
+}
+
+.item3 {
+  display: inline-block;
+  background-color: rgb(222, 147, 59);
+  color: white;
+  text-align: right;
+  font-size: 23px;
+  padding: 5px 20px;
+}
+
+.item4 {
+  text-align: center;
+  padding: 15px 100px;
+}
+
+.item5 {
+  background-color: rgb(222, 147, 59);
+  color: white;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.item6 {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.item7 {
+  text-align: center;
+  padding: 25px;
+}
+
+.item8 {
+  background-color: rgb(222, 147, 59);
+  padding: 30px;
+
+}
+
+.item9 {
+  background-color: #2C3E50;
+  text-align: center;
+  padding: 15px;
+}
+
+.item10 {
+  background-color: rgb(222, 147, 59);
+  padding: 30px;
+
+}
+
+.item11 {
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.item12 {
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  padding: 25px;
+}
